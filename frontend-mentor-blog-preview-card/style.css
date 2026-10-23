@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap');
+
+:root{
+    --color-yellow: #F4D04E;
+    --color-gray-950:#111;
+    --color-gray-500: #6B6B6B;
+    --color-white: #fff;
+
+    --spacing-200: 24px;
+    --spacing-150: 12px;
+    --spacing-100: 8px;
+    --spacing-50:4px;
+    
+    --font-size-text-preset-2: 16px;
+    --font-size-text-preset-3: 14px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-size: var(--spacing-200);
+    color: var(--color-gray-950);
+    font-weight: 800;
+    line-height: 150%;
+}
+
+
+
+h3{
+    font-size: var(--font-size-text-preset-3);
+    color: var(--color-gray-950);
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.data{
+    font-size: var(--font-size-text-preset-3);
+    color: var(--color-gray-950);
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.text{
+    font-size: var(--font-size-text-preset-2);
+    color: var(--color-gray-500);
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.imagem img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--color-yellow);
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    width: 384px;
+    background-color: var(--color-white);
+    border-radius: 20px;
+    font-family: Figtree, sans-serif;
+    box-shadow: 8px 8px 0 0 #000;
+    padding: var(--spacing-200);
+    border: 1px solid var(--color-gray-950);
+    gap: var(--spacing-200);
+}
+
+.container:hover{
+    box-shadow: 14px 14px 0 0 #000;
+}
+
+.container:hover h1{
+    color: var(--color-yellow);
+    transition: color 0.3s ease-in-out;
+}
+
+.texto{
+    display:flex;
+    flex-direction: column;
+    gap: var(--spacing-150);
+}
+
+.tag{
+    max-width: 82px;
+    padding: var(--spacing-50) var(--spacing-150);
+    background-color: var(--color-yellow);
+    gap: var(--spacing-100);
+    border-radius: 4px;
+}
+
+.autor{
+    display:flex;
+    align-items: center;
+    flex-direction: row; 
+    gap: var(--spacing-150);
+}
