@@ -11,7 +11,7 @@ A collection of my solutions to Frontend Mentor challenges, built while improvin
 | Social Links Profile | HTML, CSS |
 | Results Summary Component | HTML, CSS |
 | Order Summary | React, Vite, CSS |
-| Rock Paper Scissors | CSS, JavaScript |
+| Rock Paper Scissors | React, CSS, JavaScript |
 
 ## Goals
 
